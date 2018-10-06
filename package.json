@@ -1,0 +1,24 @@
+{
+  "name": "storybook-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Storybook",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-knobs": "^3.4.11",
+    "@storybook/addon-options": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "classname": "0.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}

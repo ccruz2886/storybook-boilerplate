@@ -1,0 +1,30 @@
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.StepperContainer {
+  background: ghostwhite;
+  display: flex;
+  justify-content: center;
+}
+
+.Steps {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.Step {
+  color: green;
+}
+
+.Step_Active {
+  color: red;
+}
+
+.IconStepper {
+  width: 4.75vw;
+}
